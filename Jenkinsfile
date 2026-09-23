@@ -31,10 +31,10 @@ pipeline {
 
     post {
         success {
-            echo '🎉 Build Successful! All unit tests passed perfectly.'
+            echo ' Build Successful! All unit tests passed perfectly.'
         }
         failure {
-            echo '❌ Build Failed! One or more unit tests failed. Please check the logs.'
+            echo ' Build Failed! One or more unit tests failed. Please check the logs.'
         }
     }
 }
